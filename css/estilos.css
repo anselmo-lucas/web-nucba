@@ -358,6 +358,11 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+a{
+  text-decoration: none;
+  color: #000;
+}
+
 .fixed{
     height: 12vh;
     background-color: #000;
@@ -388,8 +393,9 @@
 }
 
 .logo{
-    width: 120px;
+    width: 70%;
     display: block;
+    margin: auto;
 }
 
 .sillon{
@@ -400,7 +406,7 @@
     height: 88vh;
     object-fit: cover;
     object-position: top;
-    background-image: url(../img/sillon.jpg);
+    background-image: url(../img/sillon.jpg); 
 }
 
 .logo2{
@@ -415,6 +421,7 @@
 /***********************************************************SECTION*****************************************************************************/
 
 .services{
+    width: 100%;
     background: #af0404;
     height: 100vh;
     display: flex;
@@ -438,7 +445,7 @@
 }
 
 .cards{
-    width: 78%;
+    width: 80%;
     height: 80vh;
     background: #e4f9ff;
     border-radius: 5px;
@@ -450,7 +457,7 @@
 }
 
 .carta{
-    width: 250px;
+    width: 100%;
     height: 50vh;
     display: block;
     object-position: center;
@@ -491,7 +498,9 @@
     object-position: 0 -30px;
     background-image: url(../img/turnero.jpg);
 
-    color: #fff;
+    /* color: #fff; */
+    color: #cf7500;
+
 
     display: flex;
     justify-content: space-evenly;
@@ -503,11 +512,14 @@
 }
 
 .reservation h2{
+    width: 30%;
     font-size: 3em;
+
 
 }
 
 form{
+    width: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -542,4 +554,5 @@ form{
     font-size: 10px;
     margin-bottom: 0;
 }
+
 
